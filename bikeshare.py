@@ -71,7 +71,6 @@ def load_data(city, month, day):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
-
     if month != 'all':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         month = months.index(month) + 1
@@ -81,7 +80,8 @@ def load_data(city, month, day):
     return df
 
 def time_stats(df):
-    """Shows statistics on the most frequent times of travel based on given data.
+    """
+	Shows statistics on the most frequent times of travel based on given data.
 
     Args:
         param1 (df): The data frame you want to analyze.
