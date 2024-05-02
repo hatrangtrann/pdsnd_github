@@ -8,7 +8,7 @@ Project Explore US Bikeshare Data
 
 ### Description
 
-This project purpose is to develop a tool analyzing the given bikeshare data. In this project, we will explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Then users will have ability to get data such as popular bike stations, peak usage hours, and average trip durations.
+This project purpose is to develop a tool analyzing the given bikeshare data. In this project, we will explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Then users will have ability to get statistic data such as popular bike stations, peak usage hours, and average trip durations.
 
 #### Software Needs
 
@@ -18,7 +18,7 @@ To complete this project, i'll require the following softwares:
 - A text editor such as Notepad
 - A terminal application
 
-## Statistics
+## Statistics computed
 
 1. Popular times of travel (i.e., occurs most often in the start time)
 
@@ -37,7 +37,7 @@ To complete this project, i'll require the following softwares:
    - total travel time
    - average travel time
 
-4. User info
+4. User infomation
 
    - counts of each user type
    - counts of each gender (only available for NYC and Chicago)
