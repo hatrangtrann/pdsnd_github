@@ -87,7 +87,7 @@ def time_stats(df):
         param1 (df): The data frame you want to analyze.
 
     Returns:
-        Print out the result.
+        None.
     """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
