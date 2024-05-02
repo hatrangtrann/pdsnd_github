@@ -20,7 +20,7 @@ def get_filters():
     city = input('\nWhich city data you want to see? : Chicago, New York, or Washington: ').lower()
     while city not in CITY_DATA.keys():
          print('That\'s not a valid entry!')
-        city = input('\nWhich city data to see? : Chicago, New York, or Washington: ').lower()
+         city = input('\nWhich city data to see? : Chicago, New York, or Washington: ').lower()
 
     print(f"\nYou have chosen {city.title()} as your city.")
     MONTH_DATA = {'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6, 'all': 7}
